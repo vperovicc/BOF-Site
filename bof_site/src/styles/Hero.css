@@ -1,0 +1,285 @@
+.container_hero{
+    color: white;
+    margin-top: 40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_hero h1{
+    font-family: 'CustomFont1';
+    font-size: 54px;
+    text-align: center;
+}
+
+.text_hero span{
+    color: #F8B423;
+}
+
+.text_hero p{
+    font-family: 'CustomFont2';
+    text-align: center;
+    opacity: 50%;
+    font-size: 32px;
+}
+
+.button_hero{
+    background-color: #F8B423;
+    width: max-content;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+
+.button_hero p{
+    font-size: 24px;
+    font-family: 'CustomFont1';
+    color: #111111;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.button_hero a{
+    text-decoration: none;
+}
+
+@media (max-width:2120px){
+    .text_hero h1{
+        font-family: 'CustomFont1';
+        font-size: 38px;
+        text-align: center;
+    }
+    
+    .text_hero span{
+        color: #F8B423;
+    }
+    
+    .text_hero p{
+        font-family: 'CustomFont2';
+        text-align: center;
+        opacity: 50%;
+        font-size: 24px;
+    }
+    
+    .button_hero{
+        background-color: #F8B423;
+        width: max-content;
+        height: auto;
+        border-radius: 20px;
+        
+    }
+    
+    .button_hero p{
+        font-size: 20px;
+        font-family: 'CustomFont1';
+        color: #111111;
+        text-align: center;
+        padding: 5px 30px;
+    }
+}
+
+@media (max-width:1920px){
+    .text_hero h1{
+        font-size: 36px;
+    }
+    
+    .text_hero p{
+        font-size: 20px;
+    }
+    
+    .button_hero{
+        border-radius: 20px;
+    }
+    
+    .button_hero p{
+        font-size: 18px;
+        padding: 5px 30px;
+    }
+}
+
+@media (max-width:1640px){
+    .text_hero h1{
+        font-size: 34px;
+    }
+    
+    .text_hero p{
+        font-size: 18px;
+    }
+    
+    .button_hero{
+        border-radius: 20px;
+    }
+    
+    .button_hero p{
+        font-size: 16px;
+        padding: 5px 30px;
+    }
+}
+
+@media (max-width:1440px){
+    .text_hero h1{
+        font-size: 32px;
+    }
+    
+    .text_hero p{
+        font-size: 16px;
+    }
+    
+    .button_hero{
+        border-radius: 15px;
+    }
+    
+    .button_hero p{
+        font-size: 14px;
+        padding: 5px 30px;
+    }
+}
+
+@media (max-width:1180px){
+    .text_hero h1{
+        font-size: 28px;
+    }
+    
+    .text_hero p{
+        font-size: 16px;
+    }
+    
+    .button_hero{
+        border-radius: 15px;
+    }
+    
+    .button_hero p{
+        font-size: 12px;
+        padding: 2px 20px;
+    }
+}
+
+@media (max-width:1024px){
+    .text_hero h1{
+        font-size: 24px;
+    }
+    
+    .text_hero p{
+        font-size: 14px;
+    }
+    
+    .button_hero{
+        border-radius: 10px;
+    }
+    
+    .button_hero p{
+        font-size: 12px;
+        padding: 2px 20px;
+    }
+}
+
+@media (max-width:848px){
+    .text_hero h1{
+        font-size: 22px;
+    }
+    
+    .text_hero p{
+        font-size: 14px;
+    }
+    
+    .button_hero{
+        border-radius: 10px;
+    }
+    
+    .button_hero p{
+        font-size: 10px;
+        padding: 2px 20px;
+    }
+}
+
+@media (max-width:768px){
+    .text_hero h1{
+        font-size: 20px;
+    }
+    
+    .text_hero p{
+        font-size: 12px;
+    }
+    
+    .button_hero{
+        border-radius: 10px;
+    }
+    
+    .button_hero p{
+        font-size: 10px;
+        padding: 2px 20px;
+    }
+}
+
+@media (max-width:600px){
+    .container_hero{
+        width: 80%;
+    }
+
+    .text_hero h1{
+        font-size: 18px;
+    }
+    
+    .text_hero p{
+        font-size: 10px;
+    }
+    
+    .button_hero{
+        border-radius: 10px;
+    }
+    
+    .button_hero p{
+        font-size: 10px;
+        padding: 2px 20px;
+    }
+}
+
+@media (max-width:425px){
+    .container_hero{
+        width: 80%;
+    }
+
+    .text_hero h1{
+        font-size: 16px;
+    }
+    
+    .text_hero p{
+        font-size: 8px;
+    }
+    
+    .button_hero{
+        border-radius: 10px;
+    }
+    
+    .button_hero p{
+        font-size: 8px;
+        padding: 2px 15px;
+    }
+}
+
+@media (max-width:320px){
+    .container_hero{
+        width: 80%;
+    }
+
+    .text_hero h1{
+        font-size: 14px;
+    }
+    
+    .text_hero p{
+        font-size: 6px;
+    }
+    
+    .button_hero{
+        border-radius: 5px;
+    }
+    
+    .button_hero p{
+        font-size: 6px;
+        padding: 2px 15px;
+    }
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('./fonts/Square721ExtendedBold.otf') format('opentype');
+  }
+  
+@font-face {
+    font-family: 'CustomFont2';
+    src: url('./fonts/Square721Regular.otf') format('opentype');
+
+  }
+  
