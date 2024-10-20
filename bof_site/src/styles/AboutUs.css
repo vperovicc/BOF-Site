@@ -5,8 +5,15 @@
     color: white;
     font-family: 'CustomFont2';
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
+  
+  .container_aboutus p {
+    opacity: 0; /* Start hidden */
+    transform: translateY(50px); /* Start slightly below */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+  }
+  
 
 .container_aboutus p{
     opacity: 50%;

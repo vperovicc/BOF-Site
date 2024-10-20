@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.container_header img{
+  height: 100%;
+}
+
 @media (max-width:1440px)
 {
   .container_header{

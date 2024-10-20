@@ -3,6 +3,15 @@
     margin-top: 100px;
 }
 
+.container_footer {
+  position: relative; /* Allow the footer to be positioned properly */
+  opacity: 0; /* Start hidden */
+  transform: translateY(100px); /* Start below its final position */
+  transition: opacity 0.5s ease; /* Optional smooth transition */
+}
+
+
+
 .container_footer img{
     width: 100%;
 }

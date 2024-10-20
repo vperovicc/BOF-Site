@@ -34,6 +34,33 @@
     
 }
 
+.button1_hero{
+    background-color: #F8B423;
+    width: max-content;
+    height: auto;
+    border-radius: 20px;
+}
+
+.button1_hero p{
+    font-size: 24px;
+    font-family: 'CustomFont1';
+    color: #111111;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.buttons_hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.button1_hero a{
+    text-decoration: none;
+}
+
 
 .button_hero p{
     font-size: 24px;
@@ -80,6 +107,20 @@
         text-align: center;
         padding: 5px 30px;
     }
+
+    .button1_hero{
+        width: max-content;
+        height: auto;
+        border-radius: 20px;
+        
+    }
+    
+    .button1_hero p{
+        font-size: 20px;
+        font-family: 'CustomFont1';
+        text-align: center;
+        padding: 5px 30px;
+    }
 }
 
 @media (max-width:1920px){
@@ -96,6 +137,15 @@
     }
     
     .button_hero p{
+        font-size: 18px;
+        padding: 5px 30px;
+    }
+
+    .button1_hero{
+        border-radius: 20px;
+    }
+    
+    .button1_hero p{
         font-size: 18px;
         padding: 5px 30px;
     }
@@ -118,6 +168,15 @@
         font-size: 16px;
         padding: 5px 30px;
     }
+
+    .button1_hero{
+        border-radius: 20px;
+    }
+    
+    .button1_hero p{
+        font-size: 16px;
+        padding: 5px 30px;
+    }
 }
 
 @media (max-width:1440px){
@@ -134,6 +193,15 @@
     }
     
     .button_hero p{
+        font-size: 14px;
+        padding: 5px 30px;
+    }
+
+    .button1_hero{
+        border-radius: 15px;
+    }
+    
+    .button_hero1 p{
         font-size: 14px;
         padding: 5px 30px;
     }
@@ -156,6 +224,15 @@
         font-size: 12px;
         padding: 2px 20px;
     }
+
+    .button1_hero{
+        border-radius: 15px;
+    }
+    
+    .button1_hero p{
+        font-size: 12px;
+        padding: 2px 20px;
+    }
 }
 
 @media (max-width:1024px){
@@ -172,6 +249,15 @@
     }
     
     .button_hero p{
+        font-size: 12px;
+        padding: 2px 20px;
+    }
+
+    .button1_hero{
+        border-radius: 10px;
+    }
+    
+    .button1_hero p{
         font-size: 12px;
         padding: 2px 20px;
     }
@@ -194,6 +280,15 @@
         font-size: 10px;
         padding: 2px 20px;
     }
+
+    .button1_hero{
+        border-radius: 10px;
+    }
+    
+    .button1_hero p{
+        font-size: 10px;
+        padding: 2px 20px;
+    }
 }
 
 @media (max-width:768px){
@@ -210,6 +305,15 @@
     }
     
     .button_hero p{
+        font-size: 10px;
+        padding: 2px 20px;
+    }
+
+    .button1_hero{
+        border-radius: 10px;
+    }
+    
+    .button1_hero p{
         font-size: 10px;
         padding: 2px 20px;
     }
@@ -236,6 +340,19 @@
         font-size: 10px;
         padding: 2px 20px;
     }
+
+    .button1_hero{
+        border-radius: 10px;
+    }
+    
+    .button1_hero p{
+        font-size: 10px;
+        padding: 2px 20px;
+    }
+
+    .buttons_hero{
+        flex-direction: column;
+    }
 }
 
 @media (max-width:425px){
@@ -259,6 +376,15 @@
         font-size: 8px;
         padding: 2px 15px;
     }
+
+    .button1_hero{
+        border-radius: 10px;
+    }
+    
+    .button1_hero p{
+        font-size: 8px;
+        padding: 2px 15px;
+    }
 }
 
 @media (max-width:320px){
@@ -279,6 +405,15 @@
     }
     
     .button_hero p{
+        font-size: 6px;
+        padding: 2px 15px;
+    }
+
+    .button1_hero{
+        border-radius: 5px;
+    }
+    
+    .button1_hero p{
         font-size: 6px;
         padding: 2px 15px;
     }
